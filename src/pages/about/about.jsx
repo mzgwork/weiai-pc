@@ -11,13 +11,11 @@ class About extends Component {
             current: 1,
         }
     }
-
     onChange(page) {
         this.setState({
             current: page,
         });
     }
-
     render(){
         return (
             <div className="main">
