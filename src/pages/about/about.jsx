@@ -8,7 +8,7 @@ class About extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            current: 3,
+            current: 1,
         }
     }
 
