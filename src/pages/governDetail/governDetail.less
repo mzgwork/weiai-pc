@@ -1,0 +1,79 @@
+.flow-content{
+    margin-top: 60px;
+}
+.flow-layout{
+    position: relative;
+    &::after{
+        content:'';
+        display: block;
+        position: absolute;
+        top:15px;
+        right: 0;
+        background: url(../../images/flow.png) no-repeat -380px center;
+        width: 35px;
+        height: 35px;
+        background-size: cover;
+    }
+    &:last-child{
+        &::after{
+            display: none;
+        }
+    }
+    .flow-img{
+        width: 50px;
+        height: 50px;
+        background: url(../../images/flow.png) no-repeat center center;
+        margin: 0 auto;
+    }
+    .flow-icon0{
+        background-position:9px 0;
+    }
+    .flow-icon1{
+        background-position:-60px 0;
+    }
+    .flow-icon2{
+        background-position:-126px 0;
+    }
+    .flow-icon3{
+        background-position:-200px 0;
+    }
+    .flow-icon4{
+        background-position:-291px 0;
+    }
+    .flow-icon5{
+        background-position:-368px 0;
+    }
+}
+.serve-table-title{
+    height: 64px;
+    background: #487dc1;
+    color: #fff;
+    margin-top: 60px;
+}
+.serve-table-content{
+    height: 50px;
+    background:#f1f1f1;
+    border-bottom: 3px solid #fff;
+    .right-icon{
+        &::before{
+            content: '';
+            display: block;
+            width: 40px;
+            height: 40px;
+            background: url(../../images/flow.png) no-repeat -493px 0;
+            background-size: cover;
+            margin: 0 auto;
+        }
+    }
+    .fault-icon{
+        &::before{
+            content: '';
+            display: block;
+            width: 40px;
+            height: 40px;
+            background: url(../../images/flow.png) no-repeat -543px 0;
+            background-size: cover;
+            margin: 0 auto;
+        }
+    }
+}
